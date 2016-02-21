@@ -25,3 +25,7 @@ COPY supervisor.d/php-fpm.ini /etc/supervisor.d/php-fpm.ini
 COPY php/php-fpm.conf /etc/php/php-fpm.conf
 
 COPY php/pool.d /etc/php/pool.d
+
+ONBUILD COPY nginx/conf.d /etc/nginx/conf.d
+
+ONBUILD COPY . /var/www
