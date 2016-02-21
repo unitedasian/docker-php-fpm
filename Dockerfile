@@ -1,4 +1,4 @@
-FROM unitedasian/nginx
+FROM unitedasian/nginx:alpine
 
 MAINTAINER Olivier Pichon <op@united-asian.com>
 
