@@ -7,12 +7,8 @@ ENV PHP_INI_DIR /etc/php
 RUN apk add --update \
 		php-fpm \
 		php-cli \
-		php-ctype \
 		php-curl \
-		php-dom \
-		php-json \
 		php-openssl \
-		php-pdo_mysql \
 		php-phar \
 		php-zip \
 		php-zlib \
